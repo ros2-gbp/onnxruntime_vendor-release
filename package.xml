@@ -1,0 +1,25 @@
+<package format="3">
+  <name>onnxruntime_vendor</name>
+  <version>0.1.0</version>
+  <description>Vendor package for ONNX Runtime 1.24.3</description>
+
+  <author email="juliajster@gmail.com">Julia Jia</author>
+
+  <maintainer email="juliajster@gmail.com">Julia Jia</maintainer>
+  <maintainer email="bence.magyar.robotics@gmail.com">Bence Magyar</maintainer>
+  <maintainer email="denis@stoglrobotics.de">Denis Štogl</maintainer>
+  <maintainer email="christoph.froehlich@ait.ac.at">Christoph Froehlich</maintainer>
+  <maintainer email="sai.kishor@pal-robotics.com">Sai Kishor Kothakota</maintainer>
+
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
+  <buildtool_depend>git</buildtool_depend>
+
+  <build_depend>pkg-config</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
