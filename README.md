@@ -1,3 +1,26 @@
+## onnxruntime_vendor (rolling) - 0.1.0-2
+
+The packages in the `onnxruntime_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling onnxruntime_vendor` on `Tue, 23 Jun 2026 22:17:30 -0000`
+
+The `onnxruntime_vendor` package was released.
+
+Version of package(s) in repository `onnxruntime_vendor`:
+
+- upstream repository: git@github.com:ros-controls/onnxruntime_vendor.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.1.0-1`
+- new version: `0.1.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## onnxruntime_vendor (rolling) - 0.1.0-1
 
 The packages in the `onnxruntime_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling onnxruntime_vendor --no-pull-request` on `Tue, 23 Jun 2026 22:15:04 -0000`
