@@ -1,0 +1,24 @@
+From e9d2bfcb0c0ab4fa4b6af1123ddba2cb46189041 Mon Sep 17 00:00:00 2001
+From: Sai Kishor Kothakota <sai.kishor@pal-robotics.com>
+Date: Tue, 23 Jun 2026 23:54:54 +0200
+Subject: [PATCH]  Override default FETCHCONTENT_FULLY_DISCONNECTED flag
+
+---
+ debian/rules.em | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/debian/rules.em b/debian/rules.em
+index a856369..b36b206 100755
+--- a/debian/rules.em
++++ b/debian/rules.em
+@@ -35,6 +35,7 @@ override_dh_auto_configure:
+ 		-DCMAKE_INSTALL_PREFIX="@(InstallationPrefix)" \
+ 		-DAMENT_PREFIX_PATH="@(InstallationPrefix)" \
+ 		-DCMAKE_PREFIX_PATH="@(InstallationPrefix)" \
++		-DFETCHCONTENT_FULLY_DISCONNECTED=OFF \
+ 		$(BUILD_TESTING_ARG)
+ 
+ override_dh_auto_build:
+-- 
+2.43.0
+
