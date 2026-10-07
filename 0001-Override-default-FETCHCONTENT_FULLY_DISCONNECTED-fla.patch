@@ -1,7 +1,7 @@
-From e9d2bfcb0c0ab4fa4b6af1123ddba2cb46189041 Mon Sep 17 00:00:00 2001
+From 68c0dbdca3fec1f9580ff58e66f62b02c9ae7908 Mon Sep 17 00:00:00 2001
 From: Sai Kishor Kothakota <sai.kishor@pal-robotics.com>
 Date: Tue, 23 Jun 2026 23:54:54 +0200
-Subject: [PATCH]  Override default FETCHCONTENT_FULLY_DISCONNECTED flag
+Subject: [PATCH] Override default FETCHCONTENT_FULLY_DISCONNECTED flag
 
 ---
  debian/rules.em | 1 +
