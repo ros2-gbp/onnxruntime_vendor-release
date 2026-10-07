@@ -1,1 +1,1 @@
-{"base": "9d64467", "parent": "debian/rolling/onnxruntime_vendor", "previous": "6ebf8c6", "trim": "", "trimbase": ""}
+{"base": "60ff2d8", "parent": "debian/rolling/onnxruntime_vendor", "previous": "731eb64", "trim": "", "trimbase": ""}
